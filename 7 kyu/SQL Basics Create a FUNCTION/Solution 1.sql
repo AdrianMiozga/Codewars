@@ -1,0 +1,9 @@
+CREATE FUNCTION increment(num INTEGER)
+  RETURNS INTEGER AS
+  $$
+  BEGIN
+    RETURN num + 1;
+  END;
+  $$
+
+LANGUAGE PLpgSQL
