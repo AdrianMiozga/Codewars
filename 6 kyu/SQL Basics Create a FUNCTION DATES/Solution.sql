@@ -1,0 +1,8 @@
+CREATE FUNCTION agecalculator(date DATE)
+  RETURNS INTEGER AS
+  $$
+  BEGIN
+    RETURN DATE_PART('year', AGE(NOW(), DATE));
+  END;
+  $$
+  LANGUAGE PLpgSQL;
