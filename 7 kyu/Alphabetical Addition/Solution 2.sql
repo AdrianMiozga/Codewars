@@ -1,0 +1,1 @@
+SELECT COALESCE(LOWER(CHR(((CASE WHEN SUM(ASCII(letter) - 96) % 26 = 0 THEN 26 ELSE SUM(ASCII(letter) - 96) % 26 END + 96)::INT))), 'z') AS letter FROM letters;
