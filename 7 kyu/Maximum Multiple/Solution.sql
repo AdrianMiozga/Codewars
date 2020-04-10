@@ -1,0 +1,1 @@
+SELECT (bound / divisor)::INTEGER * divisor AS res FROM max_multiple;
