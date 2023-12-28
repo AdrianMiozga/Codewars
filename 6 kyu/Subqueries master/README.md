@@ -1,0 +1,1 @@
+# [Subqueries master](https://www.codewars.com/kata/594323fde53209e94700012a)
